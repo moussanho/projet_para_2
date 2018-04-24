@@ -8,7 +8,9 @@ typedef struct mynumber{
 } mystruct;
 
 mystruct tab={0,NULL};
-  
+
+/*---------INITIALISATION DE LA STRUCTURE EN BINAIRE-------- */
+
 mystruct convert(unsigned long number, mystruct mynumber){
   int valeur,taille=0;
   mynumber.number=number;
